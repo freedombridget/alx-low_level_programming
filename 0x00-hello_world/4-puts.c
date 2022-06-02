@@ -3,7 +3,7 @@
 /**
  * main: print the string in the input function
  *
- * description:using the main function
+ * description: using the main function
  * this print "Programming is like building a multilingual puzzle"
  * return: 0
  */
