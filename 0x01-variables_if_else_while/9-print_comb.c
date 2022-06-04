@@ -13,15 +13,9 @@ int main(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		putchar(i);
-		if (i < 9)
-		{
-			putchar(44);
-		}
-		else
-		{
-			putchar(32);
-		}
+		putchar(ch);
 	}
+	putchar('\n');
+
 	return (0);
 }
