@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main program for the number
+ * main - program for the number
  * numbers
  *
  * Return: Always 0 (success)
@@ -17,11 +17,11 @@ int main(void)
 		if (i < 9)
 		{
 			putchar(44);
-		}	
+		}
 		else
 		{
 			putchar(32);
-		}	
+		}
 	}
 	return (0);
-}	
+}
