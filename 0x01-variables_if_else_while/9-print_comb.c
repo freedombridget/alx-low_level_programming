@@ -15,9 +15,13 @@ int main(void)
 	{
 		putchar(i);
 		if (i < 9)
-		putchar(44);
-		if (i < 9)
-		putchar(32);	
+		{
+			putchar(44);
+		}	
+		else
+		{
+			putchar(32);
+		}	
 	}
 	return (0);
 }	
