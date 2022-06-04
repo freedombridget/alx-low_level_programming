@@ -12,7 +12,7 @@ int main(void)
 
 	/* print in lower letter */
 
-	for (ch = 'a'; ch <= 'z'; c++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
