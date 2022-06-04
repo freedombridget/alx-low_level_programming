@@ -8,9 +8,9 @@
  */
 int main(void)
 {
-	int firstLetter, n;
+	int n;
 
-	for (firstLetter = 122, n = 1; n < 27; firstLetter--, n++)
+	for (n = 'z'; n < 'a'; n--)
 	
 	putchar(10);
 	return (0);
