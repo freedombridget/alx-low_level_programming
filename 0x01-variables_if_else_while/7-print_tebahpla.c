@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - Entry point
  * Description: prints the lowercase alphabet in reverse
@@ -10,7 +11,7 @@ int main(void)
 {
 	int n;
 
-	for (n = 'a'; n < 'z'; n++)	
+	for (n = 'z'; n <= 'a'; n++)	
 	putchar(n);
 	return (0);
 }
