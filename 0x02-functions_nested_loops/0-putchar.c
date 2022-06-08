@@ -1,21 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Prints _putchar, followed by a new line
- * and return 0
+ * print_alphabet - Prints the alphabet in lowercase
  *
- * * Return: Always 0.
+ * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	int n;
+	char alpha;
 
-	if (n == _putchar)
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		print(_putchar '\n');
+		_putchar (alpha);
 	}
 
-	return (0);
+	_putchar('\n');
 }
