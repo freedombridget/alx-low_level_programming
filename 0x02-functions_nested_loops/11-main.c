@@ -1,28 +1,25 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 /**
- * main - check the code
- *
+ * print_to_98 - print number to 98
+ * @n:number
  * Return: Always 0.
  */
 void print_to_98(int n)
 {
-	if (n < 98)
+	while (n < 98)
 	{
-		while (n < 98)
-		{
-			printf("%d,", n);
-			n++;
-		}
+		printf("%i, ", n);
+		n++;
+	}
+	
+	while (n > 98)
+	{
+		printf("%i, ", n);
+		n--;
+	}
+	printf("98");
+	putchar("\n");
 
-	}
-	else if (n > 98)
-	{
-		while (n > 98)
-		{
-			printf("%d,", n);
-			n--;
-		}
-	}
-	printf("98\n");
+	return (0);
 }
