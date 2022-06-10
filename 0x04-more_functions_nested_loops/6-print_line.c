@@ -1,24 +1,25 @@
 #include "main.h"
+
 /**
  *
  * print_line - draws a straight line in the terminal.
  * @n: print int
- * Return: Always 0.
+ * Return: a straight line
  */
 void print_line(int n)
 {
-	int i;
+	int co;
 
-	if (n > 0)
+	if (n <= 0)
 	{
-		for (i = 0; i < n; i++)
-		{
-			_putchar(95);
-		}
 		_putchar('\n');
 	}
 	else
 	{
+		for (co = 1; co <= n; co++)
+		{
+			_putchar('_');
+		}
 		_putchar('\n');
 	}
 }
