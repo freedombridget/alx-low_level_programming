@@ -7,18 +7,19 @@
  */
 void print_line(int n)
 {
+	/*Declaring statements*/
 	int i;
 
-	if (n > 0)
+	if (n > 0) /*Start IF*/
 	{
-		for (i = 0; i < n; i++)
+		for (i = 0; i < n; i++) /*Print (_) n times*/
 		{
 			_putchar (95);
 		}
-		_putchar ('\n');
-	}
+		_putchar ('\n'); /*New line*/
+	} /*End IF*/
 	else
 	{
-		_putchar ('\n');
+		_putchar ('\n'); /*New line*/
 	}
 }
