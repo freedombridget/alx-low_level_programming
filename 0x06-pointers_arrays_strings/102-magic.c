@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  * Description: 'the program description'
- * Return:Empty
+ * Return: Always 0.
  */
 int main(void)
 {
