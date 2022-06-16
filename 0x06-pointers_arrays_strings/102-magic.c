@@ -13,6 +13,7 @@ int main(void)
 
 	a[2] = 1024;
 	p = &n;
+
 	/*
 	 * write your line of code here...
 	 * Remember:
@@ -23,6 +24,7 @@ int main(void)
 	 */
 	/* ...so that this prints 98\n */
 	int b = a[2] -= 926;
+
 	printf("a[2] = %d\n", b);
 	return (0);
 }
